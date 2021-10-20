@@ -24,4 +24,4 @@ Alice and Java Course 2021
  ### Projects
  
  - [Kandinsky Project: Built-in Functions](https://github.com/Javascript-void0/Alice-Java/blob/main/src/KandinskyProject/KandinskyProject.pde)
- - [Bouncing Ball: Pong using Minim library](https://github.com/Javascript-void0/Alice-Java/blob/main/src/BouncingBall2/BouncingBall2.pde)
+ - [Bouncing Ball: Pong using Minim library](https://github.com/Javascript-void0/Alice-Java/blob/main/src/BouncingBallNew/BouncingBallNew.pde)
