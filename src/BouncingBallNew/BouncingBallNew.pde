@@ -262,6 +262,13 @@ void numberPlayerToggle() {
 
 void keyPressed() {
     waitForPress = false;
+    if (key == ESC) {
+        key = 0;
+        if (menuSelect == true) {
+            bg_music.pause();
+            setup();
+        }
+    }
     if (key == CODED) {
         if (keyCode == LEFT) {
             if (menuSelect == false) {
@@ -292,7 +299,7 @@ void keyPressed() {
             someOtherPaddleOtherSideX -= paddleWidth;
             paddleWall();
         }
-    } else if (keyCode == ENTER || menuSelect == false) {
+    } else if (keyCode == ENTER && menuSelect == false) {
         menuSelect = true;
         if (numberPlayer == 2) {
             paddleOtherSideX = width / 2;
