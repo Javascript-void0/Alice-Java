@@ -7,25 +7,22 @@ import ddf.minim.ugens.*;
 
 Minim minim;
 AudioOutput ao;
-SineWave sw;
-SquareWave sqw;
+SquareWave sw;
 float angle;
-float vDepth;
-float vSpeed;
+float tDepth;
+float tSpeed;
 
 void setup() {
     size(1800,800);
     minim = new Minim(this);
     ao = minim.getLineOut();
-    sw = new SineWave(440,0.1,44100);
-    sqw = new SquareWave(400,0.1,44100);
+    sw = new SquareWave(440,0.1,44100);
     sw.portamento(100);
-    sqw.portamento(100);
     ao.addSignal(sw);
     textSize(24);
     angle = 0;
-    vDepth = 50;
-    vSpeed = 0.5;
+    tDepth = 0.1;
+    tSpeed = 0.5;
 }
 
 void draw() {
@@ -38,23 +35,16 @@ void draw() {
     text("G4", 391.9954+5, height-10);
     line(523.2511, 10, 523.2511, height-10);
     text("C5", 523.2511+5, height-10);
-    vDepth = map(mouseY,0,height,0,100);
-    sw.setFreq(mouseX + sin(angle) * vDepth);
-    sqw.setFreq(mouseX + sin(angle) * vDepth);
-    angle += vSpeed;
+    tDepth = map(mouseY,0,height,0,1);
+    sw.setFreq(mouseX);
+    ao.setPan(tDepth * sin(angle));
+    angle += tSpeed;
 }
 
 void mouseClicked() {
     if (mouseButton == LEFT) {
-        vSpeed -= 0.05;
+        tSpeed -= 0.01;
     } else if (mouseButton == RIGHT) {
-        vSpeed += 0.05;
-    }
-}
-
-void keyPressed() {
-    if (key == 'q') {
-        sqw.setFreq(mouseX);
-        ao.addSignal(sqw);
+        tSpeed += 0.01;
     }
 }
