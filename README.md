@@ -20,6 +20,10 @@ Alice and Java Course 2021
  - [Oct 12: Mouse Click](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October12/October12.pde)
  - [Oct 14: Minim Read File](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October14/October14.pde)
  - [Oct 18: Minim Make Tones](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October18/October18.pde)
+ - [Oct 21: Minim idk](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October21/October21.pde)
+ - [Oct 22: Moving Character... Minim](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October22/October22.pde)
+ - [Oct 25: Handy Library](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October25/October25.pde)
+ - [Oct 28: Writing Classes](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October25)
  
  ### Projects
  
