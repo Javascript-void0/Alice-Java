@@ -24,6 +24,8 @@ Alice and Java Course 2021
  - [Oct 22: Moving Character... Minim](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October22/October22.pde)
  - [Oct 25: Handy Library](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October25/October25.pde)
  - [Oct 28: Writing Classes](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October25)
+ - [Nov 1: "Stippling" Random Radius](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1)
+ - [Nov 1.5: Stippling w/ dots](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1_5)
  
  ### Projects
  
