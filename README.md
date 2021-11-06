@@ -26,7 +26,8 @@ Alice and Java Course 2021
  - [Oct 28: Writing Classes](https://github.com/Javascript-void0/Alice-Java/blob/main/src/October25)
  - [Nov 1: "Stippling" Random Radius](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1)
  - [Nov 1.5: Stippling w/ dots](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1_5)
- 
+ - [Nov 3: PDF Export](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November3/November3.pde)
+
  ### Projects
  
  - [Kandinsky Project: Built-in Functions](https://github.com/Javascript-void0/Alice-Java/blob/main/src/KandinskyProject/KandinskyProject.pde)
