@@ -27,6 +27,8 @@ Alice and Java Course 2021
  - [Nov 1: "Stippling" Random Radius](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1)
  - [Nov 1.5: Stippling w/ dots](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November1_5)
  - [Nov 3: PDF Export](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November3/November3.pde)
+ - [Nov 3: Save Video Frames](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November5/November5.pde)
+ - [Nov 8: Redraw Video Frames](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November8/November8.pde)
 
  ### Projects
  
