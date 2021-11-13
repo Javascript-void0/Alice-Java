@@ -13,7 +13,6 @@ void setup() {
     surface.setTitle("FPS" + frameRate);
 
     size(1500,1500);
-    background(255);
     circles = new ArrayList<Circle>();
     img = loadImage("rick.jpg");
     boolean foundIntersection = false;

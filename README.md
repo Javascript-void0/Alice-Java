@@ -29,6 +29,11 @@ Alice and Java Course 2021
  - [Nov 3: PDF Export](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November3/November3.pde)
  - [Nov 3: Save Video Frames](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November5/November5.pde)
  - [Nov 8: Redraw Video Frames](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November8/November8.pde)
+ - [Nov 9: Redraw Video Frames (Handy)](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November9/November9.pde)
+ - [Nov 9: Redraw Video Frames (Handy)](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November9/November9.pde)
+ - [Nov 10: Pixel Cat](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November10/November10.pde)
+ - [Nov 11: Pixel Cat Shock](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November11/November11.pde)
+ - [Nov 12: Stippling w/ Video](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November12/November12.pde)
 
  ### Projects
  
