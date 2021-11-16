@@ -34,7 +34,9 @@ Alice and Java Course 2021
  - [Nov 10: Pixel Cat](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November10/November10.pde)
  - [Nov 11: Pixel Cat Shock](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November11/November11.pde)
  - [Nov 12: Stippling w/ Video](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November12/November12.pde)
-
+ - [Nov 15: Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November15/November15.pde)
+ - [Nov 16: More Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November16/November16.pde)
+ 
  ### Projects
  
  - [Kandinsky Project: Built-in Functions](https://github.com/Javascript-void0/Alice-Java/blob/main/src/KandinskyProject/KandinskyProject.pde)
