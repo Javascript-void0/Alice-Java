@@ -36,6 +36,7 @@ Alice and Java Course 2021
  - [Nov 12: Stippling w/ Video](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November12/November12.pde)
  - [Nov 15: Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November15/November15.pde)
  - [Nov 16: More Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November16/November16.pde)
+ - [Nov 17: More Arrays Practice](https://github.com/Javascript-void0/Alice-java/blob/main/src/November17/November17.pde)
  
  ### Projects
  
