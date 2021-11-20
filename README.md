@@ -37,7 +37,11 @@ Alice and Java Course 2021
  - [Nov 15: Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November15/November15.pde)
  - [Nov 16: More Arrays](https://github.com/Javascript-void0/Alice-Java/blob/main/src/November16/November16.pde)
  - [Nov 17: More Arrays Practice](https://github.com/Javascript-void0/Alice-java/blob/main/src/November17/November17.pde)
- 
+ - [Nov 18: random practice](https://github.com/Javascript-void0/Alice-java/blob/main/src/November18/November18.pde)
+ - [Nov 18.5: Web](https://github.com/Javascript-void0/Alice-java/blob/main/src/November18_5/November18_5.pde)
+ - [Nov 19: Stupid warm-up](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19/Novermber19.pde)
+ - [Nov 19_5: Web Segments](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19_5/Novermber19_5/pde)
+
  ### Projects
  
  - [Kandinsky Project: Built-in Functions](https://github.com/Javascript-void0/Alice-Java/blob/main/src/KandinskyProject/KandinskyProject.pde)
