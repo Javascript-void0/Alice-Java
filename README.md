@@ -41,6 +41,9 @@ Alice and Java Course 2021
  - [Nov 18.5: Web](https://github.com/Javascript-void0/Alice-java/blob/main/src/November18_5/November18_5.pde)
  - [Nov 19: Stupid warm-up](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19/Novermber19.pde)
  - [Nov 19_5: Web Segments](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19_5/Novermber19_5/pde)
+ - [Nov 22: Color Thread](https://github.com/Javascript-void0/Alice-java/blob/main/src/November22/Novermber22.pde)
+ - [Nov 30: G4P Library](https://github.com/Javascript-void0/Alice-java/blob/main/src/November30)
+ - [Dec 1: ](https://github.com/Javascript-void0/Alice-java/blob/main/src/December1)
 
  ### Projects
  
