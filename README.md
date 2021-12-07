@@ -39,13 +39,15 @@ Alice and Java Course 2021
  - [Nov 17: More Arrays Practice](https://github.com/Javascript-void0/Alice-java/blob/main/src/November17/November17.pde)
  - [Nov 18: random practice](https://github.com/Javascript-void0/Alice-java/blob/main/src/November18/November18.pde)
  - [Nov 18.5: Web](https://github.com/Javascript-void0/Alice-java/blob/main/src/November18_5/November18_5.pde)
- - [Nov 19: Stupid warm-up](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19/Novermber19.pde)
- - [Nov 19_5: Web Segments](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19_5/Novermber19_5/pde)
- - [Nov 22: Color Thread](https://github.com/Javascript-void0/Alice-java/blob/main/src/November22/Novermber22.pde)
+ - [Nov 19: Stupid warm-up](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19/November19.pde)
+ - [Nov 19_5: Web Segments](https://github.com/Javascript-void0/Alice-java/blob/main/src/November19_5/November19_5/pde)
+ - [Nov 22: Color Thread](https://github.com/Javascript-void0/Alice-java/blob/main/src/November22/November22.pde)
  - [Nov 30: G4P Library](https://github.com/Javascript-void0/Alice-java/blob/main/src/November30)
- - [Dec 1: ](https://github.com/Javascript-void0/Alice-java/blob/main/src/December1)
+ - [Dec 1: Toggle Groups](https://github.com/Javascript-void0/Alice-java/blob/main/src/December1)
+ - [Dec 3: Array Practice](Https://github.com/Javascript-void0/Alice-java/blob/main/src/December3/December3.pde)
 
  ### Projects
  
  - [Kandinsky Project: Built-in Functions](https://github.com/Javascript-void0/Alice-Java/blob/main/src/KandinskyProject/KandinskyProject.pde)
  - [Bouncing Ball: Pong using Minim library](https://github.com/Javascript-void0/Alice-Java/blob/main/src/BouncingBallNew/BouncingBallNew.pde)
+ - [Mozart Project: Minim and G4P](https://github.com/Javascript-void0/Alice-java/blob/main/src/Mozart)
