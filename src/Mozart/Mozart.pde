@@ -12,19 +12,21 @@ public void setup() {
 	createGUI();
 	minim = new Minim(this);
 	audios = new AudioPlayer[13];
-	audios[0] = minim.loadFile("c4.wav");
-	audios[1] = minim.loadFile("cs4.wav");
-	audios[2] = minim.loadFile("d4.wav");
-	audios[3] = minim.loadFile("ds4.wav");
-	audios[4] = minim.loadFile("e4.wav");
-	audios[5] = minim.loadFile("f4.wav");
-	audios[6] = minim.loadFile("fs4.wav");
-	audios[7] = minim.loadFile("g4.wav");
-	audios[8] = minim.loadFile("gs4.wav");
-	audios[9] = minim.loadFile("a4.wav");
-	audios[10] = minim.loadFile("as4.wav");
-	audios[11] = minim.loadFile("b4.wav");
-	audios[12] = minim.loadFile("c5.wav");
+	// String extension = ".wav";   // Audacity
+	String extension = "_.wav";   // piano recording from TEDAgame: https://freesound.org/people/TEDAgame/packs/25405/
+	audios[0] = minim.loadFile("c4"  + extension);
+	audios[1] = minim.loadFile("cs4" + extension);
+	audios[2] = minim.loadFile("d4" + extension);
+	audios[3] = minim.loadFile("ds4" + extension);
+	audios[4] = minim.loadFile("e4" + extension);
+	audios[5] = minim.loadFile("f4" + extension);
+	audios[6] = minim.loadFile("fs4" + extension);
+	audios[7] = minim.loadFile("g4" + extension);
+	audios[8] = minim.loadFile("gs4" + extension);
+	audios[9] = minim.loadFile("a4" + extension);
+	audios[10] = minim.loadFile("as4" + extension);
+	audios[11] = minim.loadFile("b4" + extension);
+	audios[12] = minim.loadFile("c5" + extension);
 
 	generateNewSet();
 

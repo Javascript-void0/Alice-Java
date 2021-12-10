@@ -45,6 +45,7 @@ Alice and Java Course 2021
  - [Nov 30: G4P Library](https://github.com/Javascript-void0/Alice-java/blob/main/src/November30)
  - [Dec 1: Toggle Groups](https://github.com/Javascript-void0/Alice-java/blob/main/src/December1)
  - [Dec 3: Array Practice](Https://github.com/Javascript-void0/Alice-java/blob/main/src/December3/December3.pde)
+ - [Dec 8: Snow](https://github.com/Javascrpt-void0/Alice-java/blob/main/src/December8/December8.pde)
 
  ### Projects
  

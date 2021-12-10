@@ -8,36 +8,117 @@ public void button2_click(GButton source, GEvent event) {
 	audios[r2].rewind();
 }
 
-public void button3_click1(GButton source, GEvent event) {
-	if (option1.isSelected() && diff == 0) {
-		correctAnswer();
-	} else if (option2.isSelected() && diff == 1) {
-		correctAnswer();
-	} else if (option3.isSelected() && diff == 2) {
-		correctAnswer();
-	} else if (option4.isSelected() && diff == 3) {
-		correctAnswer();
-	} else if (option5.isSelected() && diff == 4) {
-		correctAnswer();
-	} else if (option6.isSelected() && diff == 5) {
-		correctAnswer();
-	} else if (option7.isSelected() && diff == 6) {
-		correctAnswer();
-	} else if (option8.isSelected() && diff == 7) {
-		correctAnswer();
-	} else if (option9.isSelected() && diff == 8) {
-		correctAnswer();
-	} else if (option10.isSelected() && diff == 9) {
-		correctAnswer();
-	} else if (option11.isSelected() && diff == 10) {
-		correctAnswer();
-	} else if (option12.isSelected() && diff == 11) {
-		correctAnswer();
-	} else if (option13.isSelected() && diff == 12) {
-		correctAnswer();
-	} else {
-		textarea1.setText("Sorry, try again. ");
+public void button3_click(GButton source, GEvent event) {
+	if (option1.isSelected()) {
+		if (diff == 0) {
+			correctAnswer();
+		} else if (diff == 1) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option2.isSelected()) {
+		if (diff == 1) {
+			correctAnswer();
+		} else if (diff == 0 || diff == 2) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option3.isSelected()) {
+		if (diff == 2) {
+			correctAnswer();
+		} else if (diff == 1 || diff == 3) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option4.isSelected()) {
+		if (diff == 3) {
+			correctAnswer();
+		} else if (diff == 2 || diff == 4) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option5.isSelected()) {
+		if (diff == 4) {
+			correctAnswer();
+		} else if (diff == 3 || diff == 5) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option6.isSelected()) {
+		if (diff == 5) {
+			correctAnswer();
+		} else if (diff == 4 || diff == 6) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option7.isSelected()) {
+		if (diff == 6) {
+			correctAnswer();
+		} else if (diff == 5 || diff == 7) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option8.isSelected()) {
+		if (diff == 7) {
+			correctAnswer();
+		} else if (diff == 6 || diff == 8) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option9.isSelected()) {
+		if (diff == 8) {
+			correctAnswer();
+		} else if (diff == 7 || diff == 9) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option10.isSelected()) {
+		if (diff == 9) {
+			correctAnswer();
+		} else if (diff == 8 || diff == 10) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option11.isSelected()) {
+		if (diff == 10) {
+			correctAnswer();
+		} else if (diff == 9 || diff == 11) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option12.isSelected()) {
+		if (diff == 11) {
+			correctAnswer();
+		} else if (diff == 10 || diff == 12) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
+	} else if (option13.isSelected()) {
+		if (diff == 12) {
+			correctAnswer();
+		} else if (diff == 11) {
+			textarea1.setText("So close! Try again. ");
+		} else {
+			textarea1.setText("Sorry, try again. ");
+		}
 	}
+}
+
+public void button4_click(GButton source, GEvent event) {
+	generateNewSet();
+	textarea1.setText("Generated New Set");
 }
 
 public void option1_clicked(GOption source, GEvent event) {
@@ -48,7 +129,7 @@ public void option2_clicked(GOption source, GEvent event) {
 	textarea1.setText("");
 }
 
-public void option3clicked(GOption source, GEvent event) {
+public void option3_clicked(GOption source, GEvent event) {
 	textarea1.setText("");
 }
 
@@ -109,10 +190,14 @@ public void createGUI(){
 	button2.setText("Play Second Note");
 	button2.setLocalColorScheme(GCScheme.CYAN_SCHEME);
 	button2.addEventHandler(this, "button2_click");
-	button3 = new GButton(this, 20, 450, 260, 80);
+	button3 = new GButton(this, 20, 450, 190, 80);
 	button3.setText("Submit");
 	button3.setLocalColorScheme(GCScheme.ORANGE_SCHEME);
-	button3.addEventHandler(this, "button3_click1");
+	button3.addEventHandler(this, "button3_click");
+	button4 = new GButton(this, 220, 450, 60, 80);
+	button4.setText("New Set");
+	button4.setLocalColorScheme(GCScheme.RED_SCHEME);
+	button4.addEventHandler(this, "button4_click");
 	togGroup1 = new GToggleGroup();
 	option1 = new GOption(this, 20, 210, 120, 20);
 	option1.setIconAlign(GAlign.LEFT, GAlign.MIDDLE);
@@ -148,7 +233,7 @@ public void createGUI(){
 	option7.setIconAlign(GAlign.LEFT, GAlign.MIDDLE);
 	option7.setText("Augmented Fourth");
 	option7.setOpaque(false);
-	option7.addEventHandler(this, "option7clicked");
+	option7.addEventHandler(this, "option7_clicked");
 	option8 = new GOption(this, 160, 300, 120, 20);
 	option8.setIconAlign(GAlign.LEFT, GAlign.MIDDLE);
 	option8.setText("Perfect Fifth");
@@ -203,6 +288,7 @@ public void createGUI(){
 GButton button1; 
 GButton button2; 
 GButton button3; 
+GButton button4; 
 GToggleGroup togGroup1; 
 GOption option1; 
 GOption option2; 
